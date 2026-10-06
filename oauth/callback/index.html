@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-Pq9V77p9Mwr4ct+I66JO1any+Cu1W0bzfuL/cQcCj5M='; style-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'" />
+    <title>Return to Renefarious Cloud</title>
+    <link rel="icon" href="data:," />
+    <script>try { window.history.replaceState(null, "", "/oauth/callback"); } catch { /* The page remains usable when history changes are blocked. */ }</script>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: #f4f7f3;
+        color: #203025;
+        line-height: 1.6;
+      }
+      * { box-sizing: border-box; }
+      body {
+        min-height: 100vh;
+        min-height: 100svh;
+        margin: 0;
+        padding: 24px;
+        display: grid;
+        place-items: center;
+      }
+      main {
+        width: 100%;
+        max-width: 520px;
+        padding: clamp(24px, 6vw, 44px);
+        background: #fff;
+        border: 1px solid #dce5d9;
+        border-radius: 24px;
+      }
+      .brand { margin: 0 0 24px; color: #327536; font-weight: 700; }
+      h1 { margin: 0 0 16px; font-size: clamp(1.75rem, 5vw, 2.25rem); line-height: 1.2; }
+      p { margin: 0 0 20px; }
+      ol { padding-left: 24px; margin: 0; }
+      li + li { margin-top: 12px; }
+      .note { margin: 24px 0 0; font-size: 0.875rem; color: #526052; }
+      @media (prefers-color-scheme: dark) {
+        :root { background: #111a14; color: #e7eee7; }
+        main { background: #1b261e; border-color: #344438; }
+        .brand { color: #a0d694; }
+        .note { color: #b4c3b4; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="brand">Renefarious Cloud</p>
+      <h1>Return to the app to sign in</h1>
+      <p>Your browser opened this page instead of returning to Renefarious Cloud. Sign-in needs to finish in the app.</p>
+      <ol>
+        <li>Check that Renefarious Cloud is installed.</li>
+        <li>In Android Settings, open its <strong>App info</strong>, then <strong>Open by default</strong>, and enable <strong>Open supported links</strong>. Names may vary by device.</li>
+        <li>Return to Renefarious Cloud and start sign-in again.</li>
+      </ol>
+      <p class="note">You can close this tab. If sign-in still does not return to the app, use the API Token option in Renefarious Cloud.</p>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.renefarious.cloud",
+      "sha256_cert_fingerprints": [
+        "65:C8:D5:A7:CB:13:03:2A:0B:EE:84:0B:E9:6C:33:D5:17:33:0E:4E:83:88:7D:1B:28:AE:DD:53:7F:63:C0:50"
+      ]
+    }
+  }
+]
